@@ -49,3 +49,13 @@
     color: white;
     padding-top: 10px;
 }
+
+@media (max-width:550px){
+    .navcontainer{
+        width: 90vw;
+        padding: 0 24px;
+    }
+    .appname h1{
+        font-size: 20px;
+    }
+}

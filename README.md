@@ -34,6 +34,6 @@ This project is ideal for companies or applications that need a foundational Rol
 # Mock Backend Api Runing on LocalHost port 5000
     create json file
     install npm install -g json-server
-    json-server --watch db.json --port 5000   
+    run script in terminal -> json-server --watch db.json --port 5000   
 
 

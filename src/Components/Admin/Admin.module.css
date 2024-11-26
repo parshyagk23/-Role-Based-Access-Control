@@ -1,18 +1,20 @@
 
 .userboard{
     height: 90vh;
-    width: 83vw;
+    max-width: 85vw;
+    overflow-x: scroll;
     margin: 0 auto; 
-    margin-top: 100px;
+    
     
 }
-.userboard h1{
+ h1{
     font-family: "Poppins",sans-serif;
     font-size: 50px;
     font-weight: 600;
     line-height: 75px;
     text-align: center;
     color: #5076FF;
+   
 }
 
 table{
@@ -70,6 +72,30 @@ p{
 }
 .edit{
     background-color: #5076FF;
+}
+
+@media(max-width:550px){
+    .userboard{
+        max-width: 90vw;
+        overflow-x: scroll;
+        
+    }
+     h1{
+        font-size: 30px;
+    }
+    table thead tr th, table tbody tr td {
+       width: 50px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        
+    }
+    .delete , .edit{
+        Width: 51px;
+        Height: 19px;
+        font-size: 15px;
+        font-weight: 400;
+    }
 }
 
 

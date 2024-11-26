@@ -27,6 +27,15 @@ const AddUser = ({setOpenAddUser,editUser,setEdit}) => {
     }
     const handleAddUser = async ()=>{
         try {
+            if(NewUser.FullName===""|| 
+                NewUser.Email===""|| 
+                NewUser.Password===""|| 
+                NewUser.Role===""|| 
+                NewUser.JoiningDate==="" ||
+                NewUser.Permissions.length===0 ){
+                alert('All field are mandatory')
+                return
+            }
            if(editUser){
                 await UpdateUserByID(editUser?.id,NewUser)
                 alert('user detail updated')
