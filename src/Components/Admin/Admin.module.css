@@ -1,0 +1,75 @@
+
+.userboard{
+    height: 90vh;
+    width: 83vw;
+    margin: 0 auto; 
+    margin-top: 100px;
+    
+}
+.userboard h1{
+    font-family: "Poppins",sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: center;
+    color: #5076FF;
+}
+
+table{
+    width: 70vw;
+    margin: 0 auto;
+    border-spacing: 2px;
+}
+table thead{
+    width: 925px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius:10px;
+    z-index: 2;
+
+}
+table thead tr th{
+    color: #FFF;
+    background-color: #5076FF;
+    position: sticky;
+    top: 0;
+    
+}
+/* table tbody tr td {
+    background: #B3C4FF;
+} */
+table thead tr th,table tbody tr td{
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+}
+
+/* Question wise analsis */
+p{
+    margin: 10px 0;
+}
+
+/* delete quiz */
+.delete, .edit{
+    all: unset;
+    Width:72px;
+    Height:28px;
+    margin:  0 auto;
+    font-family: "Poppins",sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 18.5px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.delete {
+    background-color: crimson;
+}
+.edit{
+    background-color: #5076FF;
+}
+
+

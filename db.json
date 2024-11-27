@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "FullName": "pravin ",
+      "Email": "pravin@gmail.com",
+      "Password": "1234456",
+      "Role": "Senior Developer",
+      "Permissions": [
+        "Read"
+      ],
+      "JoiningDate": "2024-08-14",
+      "id": "9630"
+    },
+    {
+      "id": "704c",
+      "FullName": "prashant",
+      "Email": "gkprashant52@gmail.com",
+      "Password": "123456",
+      "Role": "Admin",
+      "Permissions": [
+        "Read",
+        "Write",
+        "Viewer"
+      ],
+      "JoiningDate": "2024-11-26"
+    }
+  ]
+}
