@@ -45,7 +45,7 @@ const Admin = () => {
   }
   return (
     <main>
-        <h1  style={{marginTop:'50px'}} >Admin Dashborad</h1>
+        <h1  style={{marginTop:'100px'}} >Admin Dashborad</h1>
     <main className={styles.userboard } >
         <table>
           <thead>

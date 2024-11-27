@@ -1,7 +1,6 @@
 import React from 'react'
 import Admin from '../Components/Admin/Admin'
-import Navbar from '../Components/Navar/navbar'
-import AddUser from '../Components/User/AddUser'
+import Navbar from '../Components/Navar/Navbar'
 
 
 const AddminDashboard = () => {
